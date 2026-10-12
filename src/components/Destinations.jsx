@@ -47,7 +47,7 @@ function DestModal({ dest, onClose }) {
           <X className="h-5 w-5" />
         </button>
 
-        <div className="max-h-[92vh] overflow-y-auto">
+        <div data-lenis-prevent className="max-h-[92vh] overflow-y-auto overscroll-contain">
           {/* Hero */}
           <div className="relative h-64 sm:h-80">
             <img src={dest.image} alt={dest.title[lang]} className="h-full w-full object-cover" />
