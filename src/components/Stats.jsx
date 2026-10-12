@@ -43,7 +43,7 @@ export default function Stats() {
         <h2 data-reveal className="mb-16 text-center font-display text-[clamp(1.8rem,3.5vw,2.8rem)] text-cream">
           {t.stats.title}
         </h2>
-        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-2xl grid-cols-2 gap-8">
           {t.stats.items.map((s, i) => (
             <div key={i} data-reveal data-reveal-delay={String(i * 0.08)} className="text-center">
               <Counter value={s.value} suffix={s.suffix} />

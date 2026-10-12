@@ -6,7 +6,6 @@ export const SITE = {
   whatsapp: '261344083895',
   whatsappDisplay: '+261 34 40 838 95',
   location: 'Antananarivo, Madagascar',
-  partnerUrl: 'https://madeinmada.com',
 }
 
 export const HERO_SLIDES = [
@@ -208,8 +207,6 @@ export const CONTENT = {
       cta1: 'Demander un itinéraire',
       cta2: 'Comment ça marche',
       stats: [
-        { value: '6+', label: "ans d'expérience" },
-        { value: '1 200+', label: 'voyageurs' },
         { value: '25+', label: 'destinations' },
       ],
       scroll: 'Défiler',
@@ -226,7 +223,7 @@ export const CONTENT = {
         { title: 'Expériences vraies', text: 'Au-delà du tourisme : de véritables rencontres avec les communautés.' },
       ],
     },
-    stats: { title: 'Une agence que les voyageurs recommandent', items: [ { value: 6, suffix: '+', label: "ans d'expérience" }, { value: 1200, suffix: '+', label: 'voyageurs satisfaits' }, { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'note moyenne' } ] },
+    stats: { title: 'Une agence que les voyageurs recommandent', items: [ { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'note moyenne' } ] },
     how: {
       badge: 'Simple et transparent',
       title: 'Comment ça marche',
@@ -243,7 +240,6 @@ export const CONTENT = {
       badge: 'Confort & fiabilité',
       title: 'Nos voitures',
       subtitle: 'Des véhicules fiables et confortables pour découvrir Madagascar.',
-      partner: 'Véhicules opérés en partenariat avec ',
       features: [
         { title: '4x4 tout-terrain', text: 'Parfaits pour tous les terrains et toutes les saisons.' },
         { title: 'Climatisation', text: 'Confort garanti pendant les journées tropicales.' },
@@ -291,11 +287,9 @@ export const CONTENT = {
       title: 'Nos partenaires locaux',
       subtitle: 'Nous travaillons avec des entreprises locales fiables pour des expériences exceptionnelles.',
       items: [
-        { title: 'Madeinmada | Location', text: 'Flotte premium de véhicules et services d’entretien.' },
         { title: 'Réseau d’hébergements', text: 'Hôtels et lodges soigneusement sélectionnés à travers l’île.' },
         { title: 'Parcs & réserves', text: 'Partenariats officiels pour les visites guidées et les permis.' },
       ],
-      visit: 'Voir le partenaire',
     },
     faq: {
       badge: 'Bon à savoir',
@@ -340,8 +334,6 @@ export const CONTENT = {
       cta1: 'Request an itinerary',
       cta2: 'How it works',
       stats: [
-        { value: '6+', label: 'years of experience' },
-        { value: '1,200+', label: 'travellers' },
         { value: '25+', label: 'destinations' },
       ],
       scroll: 'Scroll',
@@ -358,7 +350,7 @@ export const CONTENT = {
         { title: 'Authentic moments', text: 'Beyond tourism: genuine connections with local communities.' },
       ],
     },
-    stats: { title: 'An agency travellers recommend', items: [ { value: 6, suffix: '+', label: 'years of experience' }, { value: 1200, suffix: '+', label: 'happy travellers' }, { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'average rating' } ] },
+    stats: { title: 'An agency travellers recommend', items: [ { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'average rating' } ] },
     how: {
       badge: 'Simple and transparent',
       title: 'How it works',
@@ -375,7 +367,6 @@ export const CONTENT = {
       badge: 'Comfort & reliability',
       title: 'Our cars',
       subtitle: 'Reliable and comfortable vehicles to explore Madagascar.',
-      partner: 'Vehicles operated in partnership with ',
       features: [
         { title: '4x4 vehicles', text: 'Perfect for every terrain and season.' },
         { title: 'Air conditioning', text: 'Comfort during hot tropical days.' },
@@ -423,11 +414,9 @@ export const CONTENT = {
       title: 'Our local partners',
       subtitle: 'We work with reliable local businesses to deliver exceptional experiences.',
       items: [
-        { title: 'Madeinmada | Car rental', text: 'Premium vehicle fleet and maintenance services.' },
         { title: 'Accommodation network', text: 'Carefully selected hotels and lodges across the island.' },
         { title: 'Parks & reserves', text: 'Official partnerships for guided tours and permits.' },
       ],
-      visit: 'Visit partner',
     },
     faq: {
       badge: 'Good to know',

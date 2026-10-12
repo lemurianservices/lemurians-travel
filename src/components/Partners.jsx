@@ -1,8 +1,6 @@
 import { Handshake, Building2, Trees } from 'lucide-react'
 import { SectionHeading } from './UI.jsx'
 import { useLang } from '../i18n/LanguageContext.jsx'
-import { SITE } from '../data/content.js'
-import { ExternalLink } from 'lucide-react'
 
 const icons = [Handshake, Building2, Trees]
 
@@ -13,7 +11,7 @@ export default function Partners() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading badge={t.partners.badge} title={t.partners.title} subtitle={t.partners.subtitle} />
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mx-auto mt-14 grid max-w-4xl gap-6 sm:grid-cols-2">
           {t.partners.items.map((p, i) => {
             const Icon = icons[i % icons.length]
             return (
@@ -21,16 +19,6 @@ export default function Partners() {
                 <Icon className="h-9 w-9 text-gold" />
                 <h3 className="mt-5 font-display text-xl text-cream">{p.title}</h3>
                 <p className="mt-2 !text-left text-sm leading-relaxed text-cream/60">{p.text}</p>
-                {i === 0 && (
-                  <a
-                    href={SITE.partnerUrl}
-                    target="_blank"
-                    rel="noopener"
-                    className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-gold transition hover:gap-2.5"
-                  >
-                    {t.partners.visit} <ExternalLink className="h-3.5 w-3.5" />
-                  </a>
-                )}
               </div>
             )
           })}
