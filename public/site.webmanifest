@@ -1,0 +1,19 @@
+{
+  "name": "Lemurians Travel",
+  "short_name": "Lemurians",
+  "description": "Circuits privés et expériences authentiques à Madagascar.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#06110b",
+  "theme_color": "#06110b",
+  "icons": [
+    {
+      "src": "./images/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
