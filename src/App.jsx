@@ -7,12 +7,10 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Marquee from './components/Marquee.jsx'
 import About from './components/About.jsx'
-import Stats from './components/Stats.jsx'
 import HowItWorks from './components/HowItWorks.jsx'
 import Vehicles from './components/Vehicles.jsx'
 import Destinations from './components/Destinations.jsx'
 import Regions from './components/Regions.jsx'
-import Testimonials from './components/Testimonials.jsx'
 import Partners from './components/Partners.jsx'
 import FAQ from './components/FAQ.jsx'
 import Contact from './components/Contact.jsx'
@@ -35,12 +33,10 @@ function Site() {
         <Hero ready={ready} />
         <Marquee />
         <About />
-        <Stats />
         <HowItWorks />
         <Vehicles />
         <Destinations />
         <Regions />
-        <Testimonials />
         <Partners />
         <FAQ />
         <Contact />

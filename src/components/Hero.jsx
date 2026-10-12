@@ -141,15 +141,6 @@ export default function Hero({ ready }) {
               {t.hero.cta2}
             </button>
           </div>
-
-          <div className="mt-14 flex flex-wrap gap-4 sm:gap-8">
-            {t.hero.stats.map((s, i) => (
-              <div key={i} className="hero-stat glass flex items-center gap-3 rounded-2xl px-5 py-3">
-                <span className="font-display text-2xl text-gold">{s.value}</span>
-                <span className="text-xs uppercase tracking-widest text-cream/60">{s.label}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

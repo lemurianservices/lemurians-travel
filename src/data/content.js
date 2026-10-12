@@ -206,9 +206,6 @@ export const CONTENT = {
       subtitle: 'Circuits privés et expériences authentiques, façonnés par des experts locaux qui connaissent chaque recoin de l’île.',
       cta1: 'Demander un itinéraire',
       cta2: 'Comment ça marche',
-      stats: [
-        { value: '25+', label: 'destinations' },
-      ],
       scroll: 'Défiler',
     },
     marquee: ['Circuits privés', 'Guides locaux', '4x4 tout-terrain', 'Expériences authentiques', 'Sur mesure', 'Madagascar'],
@@ -223,7 +220,6 @@ export const CONTENT = {
         { title: 'Expériences vraies', text: 'Au-delà du tourisme : de véritables rencontres avec les communautés.' },
       ],
     },
-    stats: { title: 'Une agence que les voyageurs recommandent', items: [ { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'note moyenne' } ] },
     how: {
       badge: 'Simple et transparent',
       title: 'Comment ça marche',
@@ -239,11 +235,11 @@ export const CONTENT = {
     cars: {
       badge: 'Confort & fiabilité',
       title: 'Nos voitures',
-      subtitle: 'Des véhicules fiables et confortables pour découvrir Madagascar.',
+      subtitle: 'Notre flotte : des 4x4 Hyundai Terracan (Galloper), préparés pour les pistes de Madagascar.',
       features: [
-        { title: '4x4 tout-terrain', text: 'Parfaits pour tous les terrains et toutes les saisons.' },
-        { title: 'Climatisation', text: 'Confort garanti pendant les journées tropicales.' },
-        { title: 'Entretien régulier', text: 'Sécurité et fiabilité assurées.' },
+        { title: 'Hyundai Terracan / Galloper', text: 'Des 4x4 robustes et éprouvés, idéals sur tous les terrains et toutes les saisons.' },
+        { title: 'Suspension renforcée', text: 'Boudins et amortisseurs modifiés pour plus de souplesse et de confort.' },
+        { title: 'Fiabilité sur piste', text: 'Un entretien pensé pour éviter toute panne mécanique en cours de route.' },
         { title: '4 passagers max', text: 'Spacieux et confortable pour les petits groupes.' },
       ],
     },
@@ -270,16 +266,6 @@ export const CONTENT = {
         { key: 'nord', title: 'Nord — Nosy Be & Diego', text: 'Une cuisine marine exceptionnelle, relevée d’épices locales et de traditions créoles.', tags: ['Langouste', 'Crevettes au coco', 'Rhum arrangé'] },
         { key: 'sudouest', title: 'Sud-Ouest — Pays Vezo', text: 'Toliara et les villages de pêcheurs Vezo : saveurs marines et paysages semi-arides.', tags: ['Koba', 'Poisson Vezo', 'Raketa mena'] },
         { key: 'est', title: 'Est — Côte des Épices', text: 'Tamatave : cuisine créole, plantations de vanille, girofle et poivre sauvage.', tags: ['Achard', 'Bœuf aux brèdes', 'Vanille'] },
-      ],
-    },
-    testimonials: {
-      badge: 'Ils y étaient',
-      title: 'Ce que disent nos voyageurs',
-      subtitle: 'Des expériences réelles de voyageurs partis avec nous.',
-      items: [
-        { text: 'Une expérience inoubliable ! Notre guide connaissait chaque recoin de l’île. Le coucher de soleil sur l’Allée des Baobabs était magique.', name: 'Emily R.', meta: 'Royaume-Uni · Baobabs' },
-        { text: 'Du premier message au dernier jour, tout était parfaitement organisé. Une équipe réactive et passionnée.', name: 'Marc D.', meta: 'France · Nosy Be' },
-        { text: 'Le meilleur choix pour notre lune de miel ! Un 4x4 confortable, des chauffeurs conteurs hors pair. On reviendra.', name: 'Sarah & Ben', meta: 'Australie · Circuit Sud' },
       ],
     },
     partners: {
@@ -314,7 +300,7 @@ export const CONTENT = {
       success: 'Merci ! Votre demande a bien été reçue. Nous revenons vers vous sous 24 h.',
     },
     footer: {
-      tagline: 'Expériences authentiques à Madagascar depuis 2020. Votre partenaire local pour des circuits privés à travers l’île.',
+      tagline: 'Expériences authentiques à Madagascar. Votre partenaire local pour des circuits privés à travers l’île.',
       explore: 'Explorer',
       tops: 'Top destinations',
       rights: 'Tous droits réservés.',
@@ -333,9 +319,6 @@ export const CONTENT = {
       subtitle: 'Private tours and authentic experiences, crafted by local experts who know every corner of the island.',
       cta1: 'Request an itinerary',
       cta2: 'How it works',
-      stats: [
-        { value: '25+', label: 'destinations' },
-      ],
       scroll: 'Scroll',
     },
     marquee: ['Private tours', 'Local guides', '4x4 vehicles', 'Authentic experiences', 'Tailor-made', 'Madagascar'],
@@ -350,7 +333,6 @@ export const CONTENT = {
         { title: 'Authentic moments', text: 'Beyond tourism: genuine connections with local communities.' },
       ],
     },
-    stats: { title: 'An agency travellers recommend', items: [ { value: 25, suffix: '+', label: 'destinations' }, { value: 5, suffix: '.0', label: 'average rating' } ] },
     how: {
       badge: 'Simple and transparent',
       title: 'How it works',
@@ -366,11 +348,11 @@ export const CONTENT = {
     cars: {
       badge: 'Comfort & reliability',
       title: 'Our cars',
-      subtitle: 'Reliable and comfortable vehicles to explore Madagascar.',
+      subtitle: 'Our fleet: Hyundai Terracan (Galloper) 4x4s, prepared for Madagascar’s tracks.',
       features: [
-        { title: '4x4 vehicles', text: 'Perfect for every terrain and season.' },
-        { title: 'Air conditioning', text: 'Comfort during hot tropical days.' },
-        { title: 'Regular maintenance', text: 'Safety and reliability guaranteed.' },
+        { title: 'Hyundai Terracan / Galloper', text: 'Robust, proven 4x4s — ideal on every terrain and in every season.' },
+        { title: 'Uprated suspension', text: 'Modified springs and shock absorbers for extra smoothness and comfort.' },
+        { title: 'Reliable on the road', text: 'Serviced to avoid any mechanical breakdown during your trip.' },
         { title: 'Max 4 passengers', text: 'Spacious and comfortable for small groups.' },
       ],
     },
@@ -397,16 +379,6 @@ export const CONTENT = {
         { key: 'nord', title: 'North — Nosy Be & Diego', text: 'Exceptional seafood cuisine, lifted by local spices and Creole traditions.', tags: ['Lobster', 'Coconut prawns', 'Spiced rum'] },
         { key: 'sudouest', title: 'Southwest — Vezo country', text: 'Toliara and the Vezo fishing villages: marine flavours and semi-arid landscapes.', tags: ['Koba', 'Vezo fish', 'Raketa mena'] },
         { key: 'est', title: 'East — Spice Coast', text: 'Toamasina: Creole cuisine, vanilla, clove and wild pepper plantations.', tags: ['Achard', 'Beef with greens', 'Vanilla'] },
-      ],
-    },
-    testimonials: {
-      badge: 'They were there',
-      title: 'What travellers say',
-      subtitle: 'Real experiences from travellers who explored Madagascar with us.',
-      items: [
-        { text: 'An unforgettable experience! Our guide knew every hidden gem of the island. The sunset over the Avenue of the Baobabs was pure magic.', name: 'Emily R.', meta: 'United Kingdom · Baobabs' },
-        { text: 'From the first message to the last day, everything was perfectly organised. A responsive and passionate team.', name: 'Marc D.', meta: 'France · Nosy Be' },
-        { text: 'The best decision for our honeymoon! A comfortable 4x4 and amazing storyteller drivers. We’ll be back.', name: 'Sarah & Ben', meta: 'Australia · Southern Circuit' },
       ],
     },
     partners: {
@@ -441,7 +413,7 @@ export const CONTENT = {
       success: 'Thank you! Your inquiry has been received. We’ll reply within 24 hours.',
     },
     footer: {
-      tagline: 'Authentic Madagascar experiences since 2020. Your local partner for private tours across the island.',
+      tagline: 'Authentic Madagascar experiences. Your local partner for private tours across the island.',
       explore: 'Explore',
       tops: 'Top destinations',
       rights: 'All rights reserved.',

@@ -17,12 +17,12 @@ export default function Vehicles() {
         {/* Gallery */}
         <div className="mt-14 grid gap-4 md:grid-cols-2">
           <div data-reveal className="group overflow-hidden rounded-[24px] border border-gold/15">
-            <img src={big} alt="Vehicle" className="h-[320px] w-full object-cover transition-transform duration-700 group-hover:scale-105 sm:h-[480px]" />
+            <img src={big} alt="Hyundai Terracan 4x4" className="h-[320px] w-full object-cover transition-transform duration-700 group-hover:scale-105 sm:h-[480px]" />
           </div>
           <div className="grid grid-cols-2 gap-4">
             {rest.map((src, i) => (
               <div key={src} data-reveal data-reveal-delay={String(i * 0.06)} className="group overflow-hidden rounded-[20px] border border-gold/15">
-                <img src={src} alt={`Vehicle ${i + 2}`} className="h-[150px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[232px]" />
+                <img src={src} alt={`Hyundai Terracan 4x4 ${i + 2}`} className="h-[150px] w-full object-cover transition-transform duration-700 group-hover:scale-110 sm:h-[232px]" />
               </div>
             ))}
           </div>
