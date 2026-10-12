@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight, X, MapPin, Check, Clock, Sparkles, Compass } from 'lucide-react'
 import { SectionHeading } from './UI.jsx'
-import { gsap, scrollToId } from '../lib/gsap.js'
+import { gsap, scrollToId, lockScroll, unlockScroll } from '../lib/gsap.js'
 import { useLang } from '../i18n/LanguageContext.jsx'
 import { DESTINATIONS } from '../data/content.js'
 
@@ -12,6 +12,7 @@ function DestModal({ dest, onClose }) {
 
   useEffect(() => {
     document.body.style.overflow = 'hidden'
+    lockScroll()
     const inTl = gsap.timeline()
     inTl.fromTo(overlay.current, { opacity: 0 }, { opacity: 1, duration: 0.35 })
       .fromTo(panel.current, { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, ease: 'power3.out' }, '-=0.15')
@@ -20,6 +21,7 @@ function DestModal({ dest, onClose }) {
     window.addEventListener('keydown', onKey)
     return () => {
       document.body.style.overflow = ''
+      unlockScroll()
       window.removeEventListener('keydown', onKey)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

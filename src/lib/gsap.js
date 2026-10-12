@@ -8,9 +8,11 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
 export { gsap, ScrollTrigger }
 
+let lenis = null
+
 /** Smooth momentum scrolling wired into the GSAP ticker. */
 export function initSmoothScroll() {
-  const lenis = new Lenis({
+  lenis = new Lenis({
     lerp: 0.09,
     wheelMultiplier: 1,
     smoothWheel: true,
@@ -32,7 +34,21 @@ export function initSmoothScroll() {
     window.removeEventListener('load', refresh)
     clearTimeout(t)
     lenis.destroy()
+    lenis = null
   }
+}
+
+/**
+ * Temporarily pause Lenis smoothing so overlays (modals) get plain native
+ * scrolling. Use lockScroll() while an overlay is open and unlockScroll()
+ * when it closes.
+ */
+export function lockScroll() {
+  lenis?.stop()
+}
+
+export function unlockScroll() {
+  lenis?.start()
 }
 
 export function scrollToId(id) {
